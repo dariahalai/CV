@@ -1,0 +1,230 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F7FA;
+}
+
+.main_section{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color: #fff;
+    margin:40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+.main_content_section{
+    margin: 100px 90px;
+}
+//About
+.about__prof{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    }
+.about__name{
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000;
+}
+.about__descr{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    width: 400px;
+    color: #595959;
+
+}
+
+//Projects
+.projects{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.projects__list{
+    padding: 0 0 0 17px;
+    }
+.projects__item {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+   color: #000; 
+}   
+.projects__link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.projects__text{
+    margin-left: 13px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+}
+.projects__bracket{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+}
+
+//Expirience
+.work_experience{
+    padding:0 180px 0 0  ;
+}
+.work_experience__company{
+    color: #FB6D3A;
+}
+.work_experience__position{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+}
+.data{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin: 10px 0 8px 0;
+    }
+.responsibilities{
+    padding: 0 0 0 18px;
+    }
+.responsibilities__duty{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.divider{
+    color: #000;
+}
+
+.title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000;
+}
+
+//Education
+.education__university{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin: 10px 0 10px 0;
+}
+.education__speciality{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    margin-bottom: 10px;
+}    
+.degree{
+    margin-top: 20px;
+}
+//Contacts
+.sidebar_section{
+    background-color: #1E2939;
+    width: 370px;
+    padding: 40px 0;
+}
+.contacts-section,
+.tech-skills__section,
+.soft-skills__section{
+    margin: 50px 0 0 40px;
+}
+.sidebar_title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.contacts-section__type {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 5px ;
+}
+.contacts-section__link{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #565e6a;
+}
+//Skills
+.tech-skills__list{
+padding-left: 17px;
+}
+.tech-skills__item{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FB6D3A;
+}
+.tech-skills__text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.soft-skills__list{
+    padding-left: 17px;
+    }
+.soft-skills__item{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FB6D3A;
+}
+.soft-skills__text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+
+
+.language__section{
+    padding-top: 15px;
+}
+.language__list{
+    padding-left: 17px;
+    }
+.language__item{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FB6D3A;
+}
+.language__text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
